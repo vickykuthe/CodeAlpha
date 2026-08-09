@@ -68,20 +68,6 @@ No external Python packages are required.
 
 The game starts with a main menu:
 
-
-╔══════════════════════════════════════════════════════════╗
-║                     HANGMAN PRO                          ║
-║              Ultimate Word Challenge                     ║
-╠══════════════════════════════════════════════════════════╣
-║                                                          ║
-║   1. 🎮 Start New Game                                  ║
-║   2. 🏆 Leaderboard                                     ║
-║   3. 📊 My Statistics                                   ║
-║   4. 🚪 Exit                                            ║
-║                                                          ║
-╚══════════════════════════════════════════════════════════╝
-
-
 Players select a category and difficulty, then guess the hidden word one letter at a time.
 <table>
   <tr>
