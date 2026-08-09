@@ -1,1 +1,47 @@
+{
+    "programming": [
+        {
+            "word": "python",
+            "hint": "A popular programming language"
+        },
+        {
+            "word": "algorithm",
+            "hint": "A step-by-step procedure for solving a problem"
+        },
+        {
+            "word": "database",
+            "hint": "Stores and manages structured information"
+        },
+        {
+            "word": "developer",
+            "hint": "A person who creates software"
+        },
+        {
+            "word": "computer",
+            "hint": "An electronic device used for computing"
+        }
+    ],
 
+    "technology": [
+        {
+            "word": "internet",
+            "hint": "A global network connecting computers"
+        },
+        {
+            "word": "robot",
+            "hint": "A programmable machine"
+        },
+        {
+            "word": "artificial",
+            "hint": "Not naturally occurring"
+        },
+        {
+            "word": "network",
+            "hint": "A group of connected devices"
+        },
+        {
+            "word": "software",
+            "hint": "Programs that run on a computer"
+        }
+    ]
+}
