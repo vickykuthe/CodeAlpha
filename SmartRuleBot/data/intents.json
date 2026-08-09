@@ -1,1 +1,590 @@
+{
+    "intents": [
 
+        {
+            "tag": "greeting",
+            "patterns": [
+                "hello",
+                "hi",
+                "hey",
+                "hey there",
+                "hello bot",
+                "hi bot",
+                "good morning",
+                "good afternoon",
+                "good evening",
+                "howdy",
+                "is anyone there",
+                "can we talk",
+                "start chat"
+            ],
+            "responses": [
+                "Hi! 👋 How can I help you today?",
+                "Hello! 😊 Welcome to SmartRuleBot.",
+                "Hey there! 🤖 What can I do for you?",
+                "Hello! It's great to chat with you.",
+                "Hi! I'm ready to help. What would you like to know?"
+            ]
+        },
+
+        {
+            "tag": "how_are_you",
+            "patterns": [
+                "how are you",
+                "how are you doing",
+                "are you fine",
+                "are you okay",
+                "how is it going",
+                "how do you feel",
+                "are you doing well"
+            ],
+            "responses": [
+                "I'm doing great! 😊 Thanks for asking.",
+                "I'm fine, thanks! 🤖 How about you?",
+                "I'm ready to help you!",
+                "Everything is running perfectly on my side. 🚀",
+                "I'm doing well and ready for your questions."
+            ]
+        },
+
+        {
+            "tag": "bot_name",
+            "patterns": [
+                "what is your name",
+                "what's your name",
+                "who are you",
+                "tell me your name",
+                "your name",
+                "what should i call you",
+                "what are you called"
+            ],
+            "responses": [
+                "I'm SmartRuleBot 🤖.",
+                "You can call me SmartRuleBot.",
+                "My name is SmartRuleBot, your rule-based virtual assistant.",
+                "I'm SmartRuleBot, a chatbot developed using Python."
+            ]
+        },
+
+        {
+            "tag": "about_bot",
+            "patterns": [
+                "what are you",
+                "what is this chatbot",
+                "tell me about yourself",
+                "about yourself",
+                "what can you do",
+                "what is smart rule bot",
+                "explain smart rule bot"
+            ],
+            "responses": [
+                "I'm SmartRuleBot, an intelligent rule-based chatbot built using Python, Flask, JSON and SQLite.",
+                "I am a rule-based conversational AI system designed to understand predefined user intents and provide suitable responses.",
+                "I can handle greetings, basic questions, user information, date and time queries, and general conversation."
+            ]
+        },
+
+        {
+            "tag": "help",
+            "patterns": [
+                "help",
+                "help me",
+                "i need help",
+                "can you help me",
+                "how can you help me",
+                "what can i ask",
+                "show me commands",
+                "what questions can i ask"
+            ],
+            "responses": [
+                "Of course! 😊 You can ask me about programming, projects, studies, greetings, my capabilities, date, time and more.",
+                "I'm here to help! Try asking: 'What can you do?', 'What is Python?', or 'Tell me a joke.'",
+                "You can ask me general questions about programming, projects, studies and chatbot-related topics."
+            ]
+        },
+
+        {
+            "tag": "thanks",
+            "patterns": [
+                "thanks",
+                "thank you",
+                "thank you so much",
+                "thanks a lot",
+                "thank you bot",
+                "great thanks",
+                "appreciate it"
+            ],
+            "responses": [
+                "You're welcome! 😊",
+                "Happy to help! 🤖",
+                "Anytime!",
+                "Glad I could help!",
+                "You're very welcome. 🚀"
+            ]
+        },
+
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "bye",
+                "goodbye",
+                "see you",
+                "see you later",
+                "talk to you later",
+                "good night",
+                "exit",
+                "quit",
+                "close chat"
+            ],
+            "responses": [
+                "Goodbye! 👋 Have a great day!",
+                "See you later! 😊",
+                "Thanks for chatting with me. Goodbye!",
+                "Take care! 🚀",
+                "Bye! Come back anytime."
+            ]
+        },
+
+        {
+            "tag": "capabilities",
+            "patterns": [
+                "what can you do",
+                "what are your features",
+                "your features",
+                "tell me your capabilities",
+                "what features do you have",
+                "what services do you provide"
+            ],
+            "responses": [
+                "I can understand predefined intents, remember your name during a session, provide date and time, answer programming-related questions, and maintain conversation records.",
+                "My features include intent matching, dynamic responses, user-name recognition, date/time handling, SQLite conversation storage and a web interface.",
+                "I'm designed as an extensible rule-based conversational AI system."
+            ]
+        },
+
+        {
+            "tag": "programming",
+            "patterns": [
+                "what is programming",
+                "what is coding",
+                "how to learn programming",
+                "programming meaning",
+                "coding meaning",
+                "why learn programming",
+                "best way to learn coding"
+            ],
+            "responses": [
+                "Programming is the process of writing instructions that computers can execute.",
+                "Coding means writing instructions using programming languages such as Python, Java, C++ or JavaScript.",
+                "A good way to learn programming is to understand fundamentals, practice daily and build real projects."
+            ]
+        },
+
+        {
+            "tag": "python",
+            "patterns": [
+                "what is python",
+                "tell me about python",
+                "python programming",
+                "why learn python",
+                "python language",
+                "python benefits",
+                "is python easy"
+            ],
+            "responses": [
+                "Python is a high-level, beginner-friendly programming language widely used in AI, data science, web development and automation.",
+                "Python is popular because its syntax is simple and it has a huge ecosystem of libraries.",
+                "Python is an excellent language for beginners as well as professional developers."
+            ]
+        },
+
+        {
+            "tag": "flask",
+            "patterns": [
+                "what is flask",
+                "tell me about flask",
+                "flask python",
+                "why use flask",
+                "what is flask framework"
+            ],
+            "responses": [
+                "Flask is a lightweight Python web framework used to build web applications and APIs.",
+                "In SmartRuleBot, Flask connects the chatbot's Python logic with the web interface.",
+                "Flask is simple, flexible and useful for developing Python-based web applications."
+            ]
+        },
+
+        {
+            "tag": "html",
+            "patterns": [
+                "what is html",
+                "tell me about html",
+                "html meaning",
+                "why use html",
+                "what is html used for"
+            ],
+            "responses": [
+                "HTML stands for HyperText Markup Language. It is used to structure web pages.",
+                "HTML provides the basic structure of websites using elements such as headings, paragraphs, buttons and forms."
+            ]
+        },
+
+        {
+            "tag": "css",
+            "patterns": [
+                "what is css",
+                "tell me about css",
+                "css meaning",
+                "why use css",
+                "what is css used for"
+            ],
+            "responses": [
+                "CSS stands for Cascading Style Sheets. It controls the appearance and layout of web pages.",
+                "CSS is used to add colors, spacing, animations, responsive layouts and visual styling to websites."
+            ]
+        },
+
+        {
+            "tag": "javascript",
+            "patterns": [
+                "what is javascript",
+                "tell me about javascript",
+                "javascript meaning",
+                "why use javascript",
+                "what is js"
+            ],
+            "responses": [
+                "JavaScript is a programming language commonly used to make websites interactive.",
+                "In SmartRuleBot, JavaScript sends user messages to the Flask backend and displays chatbot responses dynamically."
+            ]
+        },
+
+        {
+            "tag": "database",
+            "patterns": [
+                "what is database",
+                "what is sqlite",
+                "why use database",
+                "tell me about sqlite",
+                "database meaning",
+                "what is sqlite database"
+            ],
+            "responses": [
+                "A database is used to store and manage structured information.",
+                "SQLite is a lightweight database that stores data in a local file.",
+                "SmartRuleBot uses SQLite to store user messages, bot responses, intents and timestamps."
+            ]
+        },
+
+        {
+            "tag": "project",
+            "patterns": [
+                "what is your project",
+                "tell me about your project",
+                "explain this project",
+                "what project are you",
+                "project details",
+                "how does this project work"
+            ],
+            "responses": [
+                "SmartRuleBot is a rule-based conversational AI project developed using Python, Flask, JSON and SQLite.",
+                "The project receives a user message, processes it, identifies the closest intent and returns an appropriate response.",
+                "The architecture separates chatbot logic, intent data, database operations and the web interface."
+            ]
+        },
+
+        {
+            "tag": "how_project_works",
+            "patterns": [
+                "how does chatbot work",
+                "how does smart rule bot work",
+                "explain chatbot working",
+                "chatbot working",
+                "how are responses generated",
+                "how does intent matching work"
+            ],
+            "responses": [
+                "First, I receive your message. Then I clean the text, compare it with predefined patterns, calculate a matching score and select the most suitable intent.",
+                "My workflow is: User Input → Text Processing → Intent Matching → Response Selection → Database Storage → Response to User.",
+                "I use predefined patterns and a confidence threshold to determine which response should be returned."
+            ]
+        },
+
+        {
+            "tag": "ai",
+            "patterns": [
+                "what is ai",
+                "what is artificial intelligence",
+                "tell me about artificial intelligence",
+                "ai meaning",
+                "how does ai work"
+            ],
+            "responses": [
+                "Artificial Intelligence is the field of creating systems that can perform tasks that normally require human intelligence.",
+                "AI includes areas such as machine learning, natural language processing, computer vision and robotics.",
+                "SmartRuleBot uses rule-based conversational logic rather than a large generative AI model."
+            ]
+        },
+
+        {
+            "tag": "machine_learning",
+            "patterns": [
+                "what is machine learning",
+                "what is ml",
+                "tell me about machine learning",
+                "machine learning meaning",
+                "how does machine learning work"
+            ],
+            "responses": [
+                "Machine Learning is a branch of AI where computers learn patterns from data to make predictions or decisions.",
+                "Common machine learning types include supervised learning, unsupervised learning and reinforcement learning."
+            ]
+        },
+
+        {
+            "tag": "nlp",
+            "patterns": [
+                "what is nlp",
+                "what is natural language processing",
+                "tell me about nlp",
+                "nlp meaning",
+                "how does nlp work"
+            ],
+            "responses": [
+                "NLP stands for Natural Language Processing. It helps computers process and understand human language.",
+                "NLP is used in chatbots, translation systems, sentiment analysis, speech recognition and search engines."
+            ]
+        },
+
+        {
+            "tag": "study",
+            "patterns": [
+                "how should i study",
+                "study tips",
+                "give me study tips",
+                "how to study",
+                "how can i study better",
+                "study motivation",
+                "how to prepare for exams"
+            ],
+            "responses": [
+                "Create a realistic study schedule, practice regularly and revise difficult topics frequently. 📚",
+                "Try studying in focused sessions, taking short breaks and solving practical questions.",
+                "For technical subjects, combine theory with coding and practical projects."
+            ]
+        },
+
+        {
+            "tag": "career",
+            "patterns": [
+                "career advice",
+                "how to get a job",
+                "how to get internship",
+                "career in technology",
+                "how to prepare for placement",
+                "placement preparation",
+                "career advice for students"
+            ],
+            "responses": [
+                "Build strong fundamentals, create practical projects, maintain a good GitHub profile and prepare for coding and aptitude interviews.",
+                "For software roles, focus on programming, DSA, databases, web development, projects and communication skills.",
+                "A strong portfolio with real projects can significantly improve your internship and placement profile."
+            ]
+        },
+
+        {
+            "tag": "motivation",
+            "patterns": [
+                "motivate me",
+                "i need motivation",
+                "give me motivation",
+                "i feel lazy",
+                "i want to give up",
+                "motivation quote",
+                "encourage me"
+            ],
+            "responses": [
+                "Every expert started as a beginner. Keep learning and keep building. 💪",
+                "Don't focus on being perfect. Focus on improving a little every day. 🚀",
+                "Your progress may feel slow, but consistent effort creates big results.",
+                "Keep going! One completed project is better than ten unfinished ideas."
+            ]
+        },
+
+        {
+            "tag": "joke",
+            "patterns": [
+                "tell me a joke",
+                "make me laugh",
+                "say something funny",
+                "funny joke",
+                "do you know a joke"
+            ],
+            "responses": [
+                "Why do programmers prefer dark mode? Because light attracts bugs! 😂",
+                "A programmer's favorite place? The coffee shop — because they need Java! ☕😂",
+                "Why did the developer go broke? Because he used up all his cache! 😄"
+            ]
+        },
+
+        {
+            "tag": "time",
+            "patterns": [
+                "what time is it",
+                "tell me the time",
+                "current time",
+                "what is the current time",
+                "time please"
+            ],
+            "responses": [
+                "I'll check the current system time for you. ⏰"
+            ]
+        },
+
+        {
+            "tag": "date",
+            "patterns": [
+                "what is today's date",
+                "today's date",
+                "what date is it",
+                "current date",
+                "tell me the date",
+                "what day is today"
+            ],
+            "responses": [
+                "I'll check today's date for you. 📅"
+            ]
+        },
+
+        {
+            "tag": "user_name",
+            "patterns": [
+                "my name is",
+                "i am",
+                "call me",
+                "you can call me"
+            ],
+            "responses": [
+                "Nice to meet you! 😊",
+                "It's great to meet you!",
+                "I'll remember your name during this conversation."
+            ]
+        },
+
+        {
+            "tag": "compliment",
+            "patterns": [
+                "you are good",
+                "you are great",
+                "you are smart",
+                "good chatbot",
+                "nice chatbot",
+                "i like you",
+                "you are awesome"
+            ],
+            "responses": [
+                "Thank you! 😊 I'm glad you like me.",
+                "That's very kind of you! 🤖",
+                "Thanks! I'm always trying to improve."
+            ]
+        },
+
+        {
+            "tag": "creator",
+            "patterns": [
+                "who created you",
+                "who made you",
+                "who developed you",
+                "who built you",
+                "your developer",
+                "who is your creator"
+            ],
+            "responses": [
+                "I was developed as a Python-based rule-driven chatbot project.",
+                "I was created as part of a conversational AI project using Python, Flask, JSON and SQLite."
+            ]
+        },
+
+        {
+            "tag": "github",
+            "patterns": [
+                "what is github",
+                "tell me about github",
+                "why use github",
+                "github meaning",
+                "what is github used for"
+            ],
+            "responses": [
+                "GitHub is a platform used for hosting code, version control and collaborative software development.",
+                "Developers commonly use GitHub to showcase projects, manage repositories and collaborate with other developers."
+            ]
+        },
+
+        {
+            "tag": "linkedin",
+            "patterns": [
+                "what is linkedin",
+                "tell me about linkedin",
+                "why use linkedin",
+                "linkedin meaning",
+                "how to use linkedin"
+            ],
+            "responses": [
+                "LinkedIn is a professional networking platform where students and professionals can showcase skills, projects, certifications and experience.",
+                "A strong LinkedIn profile can help you connect with recruiters, developers and potential employers."
+            ]
+        },
+
+        {
+            "tag": "security",
+            "patterns": [
+                "is my data safe",
+                "is this chatbot safe",
+                "what happens to my messages",
+                "do you store messages",
+                "are conversations stored"
+            ],
+            "responses": [
+                "This project stores conversation records locally using SQLite for demonstration and development purposes.",
+                "The current application is designed as a local project. For production use, proper authentication, encryption and data protection should be implemented."
+            ]
+        },
+
+        {
+            "tag": "thanks_again",
+            "patterns": [
+                "good job",
+                "well done",
+                "excellent",
+                "perfect",
+                "that's helpful",
+                "that helped me"
+            ],
+            "responses": [
+                "Thank you! 😊 I'm glad I could help.",
+                "You're welcome! Keep learning and building. 🚀",
+                "Happy to hear that!"
+            ]
+        },
+
+        {
+            "tag": "bye",
+            "patterns": [
+                "bye",
+                "goodbye",
+                "see you",
+                "see you later",
+                "exit",
+                "quit",
+                "close"
+            ],
+            "responses": [
+                "Goodbye! 👋 Have a great day!",
+                "See you soon! 🚀",
+                "Thanks for chatting with SmartRuleBot!",
+                "Take care and keep learning! 😊"
+            ]
+        }
+
+    ]
+}
