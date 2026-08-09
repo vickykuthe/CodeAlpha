@@ -54,6 +54,8 @@ Bot: I can answer basic questions and have a simple conversation.
 
 You: bye
 Bot: Goodbye! Have a great day! 👋
+
+
 <img width="644" height="784" alt="Screenshot 2026-08-10 000439" src="https://github.com/user-attachments/assets/91d8d611-6ac1-47e4-9dec-3e567ce52fc9" />
 <img width="642" height="772" alt="Screenshot 2026-08-10 000514" src="https://github.com/user-attachments/assets/43ac6029-d4f3-433c-bda6-0cec80ca42de" />
 
