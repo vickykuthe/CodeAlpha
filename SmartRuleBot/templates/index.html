@@ -1,1 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SmartRuleBot</title>
+
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="icon" href="/static/logo.svg">
+</head>
+
+<body>
+
+<div class="chat-container">
+
+    <div class="chat-header">
+        🤖 SmartRuleBot
+        <span>Online</span>
+    </div>
+
+    <div id="chat-box" class="chat-box">
+
+        <div class="message bot">
+            Hello! 👋 I'm SmartRuleBot.
+            How can I help you?
+        </div>
+
+    </div>
+
+    <div class="input-area">
+
+        <input
+            type="text"
+            id="user-input"
+            placeholder="Type your message..."
+        >
+
+        <button onclick="sendMessage()">
+            Send
+        </button>
+
+    </div>
+
+</div>
+
+<script src="/static/script.js"></script>
+
+</body>
+
+</html>
