@@ -53,7 +53,7 @@ Hard
 
 ### 1. Clone the repository
 
-git clone https://github.com/YOUR-USERNAME/CodeAlpha.git
+git clone https://github.com/vickykuthe/CodeAlpha.git
 
 ### 2. Navigate to the project
 
